@@ -1,3 +1,4 @@
+//@ts-ignore
 const { getAllTodos } = require("../controllers/todos.ts")
 //@ts-ignore
 const express = require("express")
