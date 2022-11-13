@@ -13,6 +13,8 @@ app.use(express.static("public"))
 //@ts-ignore
 const todosRouter = require("./routers/todos.ts")
 
+// Routes
+app.use("/", todosRouter)
 async function start() {
   try {
     //@ts-ignore
