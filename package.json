@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node server/app.js",
+    "postinstall": "tsc",
+    "watch-node": "nodemon dist/index.js",
+    "watch-ts": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Exp1ry/Advanced-Todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Exp1ry/Advanced-Todo/issues"
+  },
+  "homepage": "https://github.com/Exp1ry/Advanced-Todo#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
