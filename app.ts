@@ -14,7 +14,7 @@ app.use(express.static("public"))
 const todosRouter = require("./routers/todos.js")
 
 // Routes
-app.use("/", todosRouter)
+app.use("/todos", todosRouter)
 async function start() {
   try {
     //@ts-ignore
