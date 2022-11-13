@@ -8,6 +8,7 @@ const cors = require("cors")
 const bp = require("body-parser")
 const app = express()
 
+app.use(express.static("public"))
 // Route Imports
 //@ts-ignore
 const todosRouter = require("./routers/todos.ts")
