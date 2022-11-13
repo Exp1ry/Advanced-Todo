@@ -5,7 +5,6 @@
   "main": "app.ts",
   "scripts": {
     "start": "node serverjs/app.js",
-    "postinstall": "tsc",
     "watch-node": "nodemon dist/index.js",
     "watch-ts": "tsc -w"
   },
