@@ -1,5 +1,6 @@
 require("dotenv").config()
 const TodosModel = require("../models/todoModel.ts")
+//@ts-ignore
 const Todos = require("../db/todos.json")
 //@ts-ignore
 const connectDB = require("../db/connect.ts")
