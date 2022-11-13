@@ -1,6 +1,6 @@
 require("dotenv").config()
 //@ts-ignore
-const connectDB = require("./db/connect.ts")
+const connectDB = require("./db/connect.js")
 // Imports
 //@ts-ignore
 const express = require("express")
@@ -11,7 +11,7 @@ const app = express()
 app.use(express.static("public"))
 // Route Imports
 //@ts-ignore
-const todosRouter = require("./routers/todos.ts")
+const todosRouter = require("./routers/todos.js")
 
 // Routes
 app.use("/", todosRouter)

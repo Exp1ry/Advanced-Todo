@@ -1,5 +1,5 @@
 //@ts-ignore
-const { getAllTodos } = require("../controllers/todos.ts")
+const { getAllTodos } = require("../controllers/todos.js")
 //@ts-ignore
 const express = require("express")
 //@ts-ignore
